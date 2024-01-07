@@ -1,0 +1,61 @@
+.hero-section {
+    background-image: url(resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    margin: 50px 0;
+    background-size: cover;
+    border-radius: 16px;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    margin: 50px 50px 50px 50px;
+}
+
+.newyearmsg {
+    color: white;
+    font-size: 32px;
+    font-family: Merriweather;
+    font-weight: 400;
+}
+
+.partymsg {
+    color: white;
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.section2 {
+    margin: 100px 230px;
+    text-align: center;
+
+}
+
+.section2>h3 {
+    color: #FF0000;
+    font-size: 88px;
+    font-family: Merriweather;
+    font-weight: 700;
+    margin: 0;
+}
+
+.redmsg {
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Merriweather;
+    font-weight: 500;
+}
+
+.all-catagories {
+    color: #070211;
+    font-size: 48px;
+    font-family:Merriweather ;
+    font-weight: 700;
+}
