@@ -257,3 +257,27 @@ button{
     background-color: #FF0000;
     color: #FFFFFF;
 }
+.footerflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.footerflex p{
+    font-size: 18px;
+font-weight: 500;
+line-height: 40px;
+}
+footer{
+    background-color: #070211;
+    padding: 20px 40px;
+}
+.ftflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ftflex img{
+    margin-inline: 15px;
+}
