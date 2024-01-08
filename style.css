@@ -104,10 +104,11 @@ body{
 }
 
 .msgbg {
-    background-color: #FF0000, #FF000000;
+    background-color:#eeb0b078;
     object-fit: fill;
     height: 482px;
     display: flex;
+    border-radius: 16px;
     justify-content: center;
     align-items: center;
 }
@@ -149,7 +150,7 @@ background-color: rgba(255, 0, 0, 1);
     justify-content: space-between;
     align-items: center;
 }
-.s1 h3{
+.samh3{
     color: #070211;
     font-size: 48px;
     font-family: Merriweather;
@@ -173,4 +174,86 @@ line-height: 32px;
     color: #FF0000;
 font-size: 48px;
 font-weight: 700;
+}
+.section4{
+    text-align: center;
+}
+.section4 span{
+    color: #FF0000;
+font-size: 72px;
+font-family: Merriweather;
+font-weight: 900;
+}
+.section4 h3{
+    color: #070211;
+font-size: 72px;
+margin: 0;
+font-family: Merriweather;
+font-weight: 900;
+}
+.section4 .s4p1{
+    color: #070211;
+font-size: 24px;
+font-family: Inter;
+font-weight: 500;
+}
+.s4img{
+    background-image: url(resources/Rectangle\ 1.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+position: relative;
+    width: 100%;
+    height: 560px;
+    padding: 0;
+}
+
+.section4 .bnr{
+    margin-top: 400px;
+   width: 100%;
+}
+.of50{
+    position: absolute;
+    top: 61px;
+    right: 280px;
+   
+}
+.gift{
+    position: absolute;
+    bottom: -15px;
+    left: -80px;
+
+}
+.section5{
+    margin: 200px 50px 50px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+
+
+}
+.lastcont{
+    text-align: center;
+    background-color: #FF00000D;
+    border-radius: 16px;
+    padding: 30px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    background-color: #FFFFFF;
+    border: none;
+    padding: 18px 36px;
+    border-radius: 16px 0 0 16px;
+}
+button{
+    border: none;
+    padding: 18px 36px;
+    border-radius:0 16px 16px 0 ;
+    background-color: #FF0000;
+    color: #FFFFFF;
 }
