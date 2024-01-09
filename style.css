@@ -1,5 +1,5 @@
 .hero-section {
-    background-image: url(resources/Banner\ Image.png);
+    background:linear-gradient(#070211, #07021100), url(resources/Banner\ Image.png);
     background-repeat: no-repeat;
     margin: 50px 0;
     background-size: cover;
@@ -7,6 +7,7 @@
     background-position: center;
     height: 600px;
     text-align: center;
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,20 +18,21 @@ body{
 }
 
 .hero-img {
-    background-image: url(resources/Vectorrr.png);
+    background:linear-gradient(#070211, #07021100), url(resources/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 560px;
+    background-size: contain;
     border-radius: 16px;
     display: flex;
     padding: 0 8px;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
 }
 
 .container {
-    margin: 50px 50px 50px 50px;
+    margin: 100px 50px;
 }
 
 .newyearmsg {
@@ -104,8 +106,7 @@ body{
 }
 
 .msgbg {
-    background-color:#eeb0b078;
-    object-fit: fill;
+    background: linear-gradient(#e5a2a2b9, #FF000000);
     height: 482px;
     display: flex;
     border-radius: 16px;
@@ -221,14 +222,18 @@ position: relative;
     position: absolute;
     bottom: -15px;
     left: -80px;
+    height: 100%;
 
 }
 .section5{
-    margin: 200px 50px 50px;
+    margin: 100px 50px;
 }
 .flex{
     display: flex;
     align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+   
 
 
 }
@@ -236,7 +241,10 @@ position: relative;
     text-align: center;
     background-color: #FF00000D;
     border-radius: 16px;
-    padding: 30px;
+    padding: 50px;
+}
+.lastcont img{
+ margin-top: 80px;
 }
 .input{
     display: flex;
@@ -247,21 +255,24 @@ position: relative;
 input{
     background-color: #FFFFFF;
     border: none;
-    padding: 18px 36px;
-    border-radius: 16px 0 0 16px;
+    padding: 18px 40px;
+    border-radius: 50px 0 0 50px;
+    margin-bottom: 80px;
 }
 button{
     border: none;
-    padding: 18px 36px;
-    border-radius:0 16px 16px 0 ;
+    padding: 18px 40px;
+    border-radius:0 50px 50px 0 ;
     background-color: #FF0000;
     color: #FFFFFF;
+    margin-bottom: 80px;
 }
 .footerflex{
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
+    
 }
 .footerflex p{
     font-size: 18px;
@@ -271,13 +282,23 @@ line-height: 40px;
 footer{
     background-color: #070211;
     padding: 20px 40px;
+    margin: 0;
 }
 .ftflex{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 40px;
 }
 .ftflex img{
     margin-inline: 15px;
+   
+}
+hr{
+    background-color: #FFFFFF26;
+}
+.flex img{
+    height: 100%;
+    width: 378px;
+    margin: 5px;
 }
