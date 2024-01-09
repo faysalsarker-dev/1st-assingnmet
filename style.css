@@ -32,7 +32,7 @@ body{
 }
 
 .container {
-    margin: 100px 50px;
+    margin: 50px 50px 80px 50px;
 }
 
 .newyearmsg {
@@ -169,7 +169,7 @@ line-height: 32px;
     border: 15px solid #FF0000;
     border-radius: 100%;
     padding: 20px;
-    margin: 0 100px;
+    margin: 0 120px;
 }
 .s3 h4{
     color: #FF0000;
@@ -223,15 +223,17 @@ position: relative;
     bottom: -15px;
     left: -80px;
     height: 100%;
+    filter: black(0%);
 
 }
 .section5{
-    margin: 100px 50px;
+    margin: 200px 50px 100px 50px;
 }
 .flex{
     display: flex;
     align-items: center;
     height: 100%;
+    justify-content: center;
     flex-wrap: wrap;
    
 
@@ -292,13 +294,22 @@ footer{
 }
 .ftflex img{
     margin-inline: 15px;
+    transform: 1s;
    
 }
 hr{
-    background-color: #FFFFFF26;
+    border: 1px solid rgba(255, 255, 255, 0.185);
 }
 .flex img{
     height: 100%;
-    width: 378px;
-    margin: 5px;
+    width: 278px;
+    margin-inline: 12px;
+    margin-top: 9px;
+    transition: 0.3s ;
+}
+.flex img:hover{
+    border-radius: 13px;
+    transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgb(83, 90, 137);
+    
 }
